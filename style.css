@@ -1,0 +1,1039 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0D0D2B;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    width: 100%;
+}
+
+/* navbar styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 7%;
+}
+
+.nav-logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-logo img{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+.nav-logo h1{
+    font-size: 1rem;
+}
+
+.nav-menus-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-menus-div p{
+    color: #F2F2F2;
+}
+
+.nav-menus{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-menus li{
+    list-style-type: none;
+}
+
+.nav-menu{
+    cursor: pointer;
+   
+}
+
+.nav-menu:hover{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+}
+
+.nav-btn{
+    background: #3671E9;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* hero section styles*/
+.hero{
+    padding: 3% 7%;
+    display: flex;
+    align-items: center;
+}
+
+.black-friday, .black-friday span{
+    border-radius: 20px;
+}
+
+.black-friday{
+    background: rgba(255, 255, 255, 0.1);
+    padding:8px 4px;
+    height: 2rem;
+}
+
+.black-friday span{
+    height: 1.8rem;
+    padding: 6px;
+    background: #fff;
+    color: #0D0D2B;
+    margin-right: 1rem;
+}
+
+.hero-heading{
+    margin-top: 2rem;
+}
+
+.hero-heading h1{
+    font-size: 2.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.hero-p{
+    color: #E0E0E0;
+    font-size:0.8rem;
+}
+
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #3671E9;
+    padding: 0.3rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+.hero-btn span{
+    background: white;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+/* data section styles*/
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.data-div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.data-div span{
+    background: rgba(255, 255, 255, 0.1);
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.data-div span img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.data-div div h3{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.data-div div p{
+    color: #E0E0E0;
+    font-size: 0.8rem;
+}
+
+
+/* why section styles */
+.why{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.why-div span h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.why-div p{
+    color: #E0E0E0;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.why-btn{
+    margin-top: 2rem;
+    background: #3671E9;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+/* ethereum styles*/
+.ethereum {
+    text-align: center;
+    padding: 4rem 4rem 0 4rem;
+    margin-bottom: 0;
+}
+
+.ethereum h3{
+    font-size: 2rem;
+}
+
+.ethereum span p{
+    color: #E0E0E0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.ethereum-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ethereum-div div{
+    margin-top: 3rem;
+    max-width: 40rem;
+    height: 6rem;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px 20px 0 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ethereum-div div input{
+    width: 45%;
+}
+
+.ethereum-div div input, .ethereum-div div select{
+    border: none;
+    border-bottom: 2px solid #E0E0E0;
+    padding-bottom: 0.5rem;
+}
+
+.ethereum-div div input::placeholder {
+    color: #0D0D2B;
+    font-weight: 600;
+    font-size: 0.8rem;
+
+
+}
+
+.ethereum-div div select{
+    width: 15%;
+}
+
+.ethereum-div div button{
+    background: #3671E9;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+}
+
+/* ethereum section 2 */
+.ethereum-two {
+    margin-top: 0;
+    padding: 0 4rem 4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.ethereum-two div{
+    max-width: 40rem;
+    width: 100%;
+    height: 10rem;
+    background: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.ethereum-two .revenue, .ethereum-two h2 span{
+    color: #3671E9;
+}
+
+.ethereum-two p{
+    font-size: 0.8rem;
+}
+
+.ethereum-two h2{
+    color: #0D0D2B;
+}
+
+.ethereum-two .change{
+    color: #828282;
+}
+
+.ethereum-two div p, .ethereum-two div h2{
+    margin-left: 1.5rem;
+}
+
+/* trade section styles */
+.trade{
+    padding: 2rem 4rem;
+    background: #fff;
+}
+
+.trade span{
+    text-align: center;
+}
+
+.trade span h2{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #0D0D2B;
+}
+
+.trade-div{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.trade-div .card{
+    text-align: center;
+    height: 20rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.trade-div .card:hover{
+    background: #2B076E;
+    color: white;
+}
+
+.trade-div .card .card-img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.trade-div .card h4{
+    color: #0D0D2B;
+}
+
+.trade-div .card:hover h4, .trade-div .card:hover p{
+    color: white;
+}
+
+.trade-div .card p{
+    color: #828282;
+}
+
+.trade-div .card button{
+    border: 2px solid rgba(43, 7, 110, 0.2);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    margin-top: 2rem;
+}
+
+/* Market section */
+
+.market {
+    padding: 5rem 4rem;
+}
+
+.market span h2 {
+    text-align: center;
+}
+
+.market span h2, .smart span p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.invest-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.smart span h3 {
+    font-size: 1.5rem;
+}
+
+.smart span p {
+    font-size: 0.7rem;
+    color: #E0E0E0;
+}
+
+.smart button {
+    background: #3671E9;
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
+
+/* Statistics styles */
+
+.statistics{
+    padding: 5rem 4rem 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.statistics-div span p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+}
+
+
+.statistics-div button{
+    padding: 1rem 2rem;
+    background-color: #3671E9;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
+
+/* Profit section */
+
+.profit{
+    padding: 4rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+
+.profit button{
+    padding: 1rem 2rem;
+    background-color: #3671E9;
+    border-radius: 30px;
+    border: none;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+/* subscribe session */
+
+.subscribe{
+    
+    
+    padding: 4rem 5rem;
+    
+    
+
+}
+
+.subscribe .su{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+    background-color: #3671E9;
+    padding: 0.5rem 4rem;
+    border-radius: 15px;
+}
+
+
+/* .sub{
+    /* padding-left: 0.5rem; */ 
+    
+    
+
+.input input{
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #E0E0E0;
+    padding-bottom: 0.5rem;
+    width: 150%;
+    outline: none;
+    
+    
+}
+
+
+input::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+
+.su button{
+    margin-right: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:  #0D0D2B;
+    border-radius: 30px;
+    border: none;
+
+}
+
+
+.quick{
+    padding: 4rem 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #0D0D2B;
+    border: 1px;
+}
+
+.quick-logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.quick-logo img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.quick-logo h1{
+    font-size: 1rem;
+}
+
+.quick-menus li{
+    list-style-type: none;
+
+
+}
+
+.quick-menus{
+    cursor: pointer;
+}
+
+.quick-menus h3{
+    font-size: 1rem;
+}
+
+.quick-div h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 0.5rem;
+    
+}
+
+
+.quick-div span img{
+    height: 30px;
+    margin-top: 0.2rem;
+    padding: 0 0.5rem;
+}
+
+
+.rights{
+    padding: 4rem 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.rights p{
+    font-size: 0.5rem;
+}
+
+.rights span img{
+    height: 15px;
+    padding: 0 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE STYLES */
+/**********************/
+@media screen and (max-width: 480px) {
+    .hero, .data, .why, .ethereum, .ethereum-two, .trade, .market, .statistics, .profit{
+        width: 100%;
+    }
+    /* Hero section */
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        padding: 3% 4%;
+    }
+
+    .black-friday{
+        padding-right: 10px;
+    }
+
+    .black-friday, .black-friday span{
+        font-size: 0.8rem;
+    }
+
+    .black-friday span{
+        margin-right: 0.2rem;
+    }
+
+    .hero-heading h1{
+        font-size: 2rem;
+    }
+
+    .hero-btn{
+        padding: 0.3rem 1rem;
+    }
+
+    .hero-img{
+        width: 100%;
+    }
+
+
+    /* Data Section Styles */
+    .data{
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 4rem 1rem;
+    }
+
+    .data-div span{
+        width:2.5rem;
+    }
+
+    .data-div div h3{
+        font-size: 1.5rem;
+    }
+   
+
+    /* Why section styles */
+    .why{
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+
+    .why img{
+        width: 100%;
+    }
+
+    .why-div span h2{
+        font-size: 1.5rem;
+    }
+
+    .why-btn{
+        padding: 1rem 1.5rem;
+        margin-top: 1rem;
+    }
+
+    
+    /* Ethereum section */
+    .ethereum {
+        padding: 4rem 1rem 0 1rem;
+    }
+
+    .ethereum h3{
+        font-size: 1.5rem;
+    }
+
+    .ethereum span p{
+        font-size: 0.56rem;
+    }
+
+    .ethereum-div div{
+        flex-direction: column;
+        padding-top: 2rem;
+        height: 10rem;
+    }
+
+    .ethereum-div div input, .ethereum-div div select{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .ethereum-div div button{
+        padding: 0.8rem 1.5rem;
+    }
+
+    /* Ethereum section two */
+    .ethereum-two{
+        padding: 2rem 1rem 4rem 1rem;
+        text-align: center;
+    }
+
+    .ethereum-two p{
+        font-size: 0.7rem;
+    }
+
+    .ethereum-two h2{
+        font-size: 1.3rem;
+    }
+
+    
+    /* Trade section styles */
+    .trade{
+        padding: 2rem 1rem;
+    }
+
+    .trade span h2{
+        font-size: 1.2rem;
+    }
+
+    .trade-div{
+        flex-direction: column;
+    }
+
+
+    /* Market section styles */
+    .market{
+        padding: 5rem 1rem;
+    }
+
+    .market span h2{
+        font-size: 1rem;
+    }
+
+    .invest-box{
+        flex-direction: column;
+    }
+
+    .invest-box .smart{
+        text-align: center;
+    }
+
+    .invest-box img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+
+    /* Statistics section styles */
+    .statistics{
+        flex-direction: column-reverse;
+        padding: 5rem 1rem;
+    }
+
+    .statistics img{
+        width:100%;
+        margin-top: 2rem;
+    }
+
+    .statistics-div{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .statistics-div h2{
+        font-size: 1rem;
+    }
+
+    .statistics-div span p{
+        font-size: 0.8rem;
+    }
+
+
+    /* Profit section styles */
+    .profit{
+        flex-direction: column;
+        padding: 5rem 1rem;
+    }
+
+    .profit img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .profit-div{
+        text-align: center;
+    }
+
+    .profit-div h2{
+        font-size: 1rem;
+    }
+
+    .profit-div span p{
+        font-size: 0.8rem;
+    }
+
+    /* .profit-div button{
+
+    } */
+}
+
+@media screen and (min-width: 481px) and (max-width:768px ){
+    /* Hero section styles */
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        padding: 1% 2%;
+    
+    
+    }
+
+
+.hero-heading h1{
+    font-size: 1.5rem;
+}
+
+.hero-heading p{
+    font-size: 0.1rem;
+
+}
+
+.hero-img{
+    width: 80%;
+}
+
+/* Data section styles */
+
+.data{
+    flex-direction: column;
+    align-items: start;
+}
+
+.data-div span{
+    width: 2.7rem;
+}
+
+
+
+/* why session styles */
+
+.why{
+    flex-direction: column-reverse;
+}
+
+.why img{
+    width: 100%;
+}
+
+.why-div span h2{
+    font-size: 1.8rem;
+}
+
+/* ethereum section */
+
+.ethereum{
+    padding-left: 1rem;
+}
+
+.ethereum h3{
+    font-size: 1.6rem;
+}
+
+.ethereum span p{
+    font-size: o.6;
+}
+ 
+.ethereum-div div button{
+    padding: o.8rem 1.5rem;
+}
+
+/* ethereum section two */
+.ethereum-two{
+padding-left: 1.8rem;
+}
+
+
+/* Trade section styles */
+.trade{
+    padding-left: 1rem;
+}
+
+.trade span h2{
+    font-size: 1.2rems;
+}
+
+.trade-div{
+    flex-direction: column;
+}
+
+
+/* market session styles */
+.market{
+    padding: 1rem 1rem;
+}
+
+.market span h2{
+    font-size: 1rem;
+}
+
+
+.invest-box{
+    flex-direction: column;
+}
+
+.invest-box .smart{
+    text-align: center;
+
+}
+
+.invest-box img{
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+
+/* statistics section styles */
+
+.statistics{
+    flex-direction: column-reverse;
+    padding: 1rem 1rem;
+}
+
+.statistics img{
+    width: 80%;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+
+}
+
+.statistics-div{
+    text-align: center;
+}
+
+.statistics-div span p{
+    font-size: 0.8rem;
+}
+
+
+
+/* profit section styles */
+.profit{
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+
+.profit img{
+    width: 100%;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+
+
+.profit-div{
+    text-align: center;
+}
+
+
+
+/* subscribe session */
+
+
+.subscribe .su{
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+
+
+.su button{
+    margin-top: 0.5rem;
+}
+
+.su .sub p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    margin-right: 8rem;
+    margin-top: 1rem;
+}
+
+.su button{
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
